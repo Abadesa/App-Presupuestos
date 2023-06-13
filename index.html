@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" href="/img/icon.png">
+  <title>Cálculo de presupuestos</title>
+</head>
+<body>
+  <h1>Calcula tus presupuestos</h1>
+  <p>¡Lleva el orden de tus gastos con nuestra ayuda!</p>
+  <br>
+  <hr>
+  <form>
+    <label for="nombre">Objeto:</label>
+    <input type="text" id="nombre">
+
+    <label for="descripcion">Descripción del objeto:</label>
+    <textarea id="descripcion"></textarea>
+
+    <label for="monto">Precio:</label>
+    <input type="number" id="monto">
+<br>
+    <button id="agregar">Agregar</button>
+  </form>
+<br>
+  <ul id="lista-presupuestos"></ul>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
