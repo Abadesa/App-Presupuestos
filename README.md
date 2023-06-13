@@ -28,7 +28,11 @@ El código utiliza JavaScript y el modelo de objetos del documento (DOM) para in
 - `agregarPresupuesto(nombre, descripcion, monto)`: función que agrega un nuevo presupuesto a la lista de presupuestos. Crea un nuevo elemento `<li>` y establece su contenido con los datos del presupuesto y el monto restante correspondiente.
 - `formulario.addEventListener('submit', function(evento) {...})`: función que se ejecuta cuando se envía el formulario. Previene la recarga de la página, obtiene los valores ingresados en los campos del formulario, actualiza el monto actual restando el monto ingresado y llama a la función `agregarPresupuesto` para agregar el presupuesto a la lista. Luego, actualiza el monto restante del presupuesto inicial y reinicia el formulario.
 
+<<<<<<< HEAD
 ![image](/img/Dise%C3%B1o.jpg)
+=======
+![image](![image](https://github.com/Abadesa/app-presupuestos/assets/126904176/616985b2-27e0-44e6-844b-034e38c4e869))
+>>>>>>> f5d2d639894005c6cabd63207957f957c02e3155
 
 ## Notas adicionales
 
